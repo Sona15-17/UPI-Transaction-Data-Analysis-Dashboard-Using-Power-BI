@@ -78,12 +78,13 @@ The dataset contains UPI transaction records with details related to transaction
 * Interactive chart switching using bookmarks for enhanced dashboard usability.
 
 
-## Dashboard Screenshots
+## Dashboard Description
 
-### Dashboard Page 1 - Monthly Balance Analysis
+The dashboard was developed in Power BI to analyze UPI transaction data through interactive visualizations and filtering options. Multiple slicers have been added to allow users to filter data by Bank Name Sent, Bank Name Received, City, Device Type, Gender, Age Groups, Merchant Name, Payment Method, Purpose, and Transaction Type.
 
-This dashboard page focuses on analyzing remaining balance trends over time. A line chart is used to visualize monthly balance patterns, while interactive slicers allow users to filter data by Age Group, Gender, City, Device Type, Payment Method, Purpose, and Transaction Type. Slicer synchronization and conditional formatting have been implemented to improve data exploration and dashboard usability.
+### 1. Transactions By Month [Line] (Year 2024)
 
+This visual displays monthly transaction amounts using a line chart. It helps in observing transaction trends across different months of the year. Data labels have been enabled to show transaction values for each month.
 <img width="1180" height="650" alt="Image" src="https://github.com/user-attachments/assets/4886c9fd-db50-4620-8a5c-660e5899ff25" />
 
 ### 2. Transactions By Month [Column] (Year 2024)
