@@ -16,6 +16,7 @@ The objective of this project is to analyze UPI transaction data and develop an 
 
 The dataset contains UPI transaction records with details related to transaction amounts, banking information, customer demographics, payment methods, transaction status, and remaining account balances. It provides a comprehensive view of digital payment activities and supports the analysis of transaction trends, customer behavior, and banking operations.
 
+
 ### Dataset Features
 
 * Transaction ID
@@ -83,6 +84,47 @@ The dataset contains UPI transaction records with details related to transaction
 
 This dashboard page focuses on analyzing remaining balance trends over time. A line chart is used to visualize monthly balance patterns, while interactive slicers allow users to filter data by Age Group, Gender, City, Device Type, Payment Method, Purpose, and Transaction Type. Slicer synchronization and conditional formatting have been implemented to improve data exploration and dashboard usability.
 
+<img width="1180" height="650" alt="Image" src="https://github.com/user-attachments/assets/4886c9fd-db50-4620-8a5c-660e5899ff25" />
+
+### 2. Transactions By Month [Column] (Year 2024)
+
+This visual represents monthly transaction amounts using a column chart. It provides a clear comparison of transaction amounts across all months in the year.
+
+<img width="1171" height="655" alt="Image" src="https://github.com/user-attachments/assets/ee759c0c-2e34-4bbb-a52a-e61a132960d3" />
+
+### 3. Balance By Month [Line] (Year 2024)
+
+This visual displays monthly remaining balance values using a line chart. It helps in analyzing balance fluctuations and monthly balance trends throughout the year.
+
+<img width="1153" height="641" alt="Image" src="https://github.com/user-attachments/assets/cbffbfe3-817b-4926-9b51-7fa7e0e073e4" />
+
+### 4. Balance By Month [Column] (Year 2024)
+
+This visual represents monthly remaining balance values using a column chart. It allows users to compare balance values across different months.
+
+<img width="1155" height="650" alt="Image" src="https://github.com/user-attachments/assets/4182230f-5c58-4738-ba20-b9777e7f9093" />
+
+### 5. Matrix Visual Analysis
+
+The second dashboard page contains a matrix visual that displays Amount and Remaining Balance values across different Cities, Currencies, and Months. Conditional formatting has been applied to improve readability and highlight values within the matrix.
+
+<img width="1158" height="652" alt="Image" src="https://github.com/user-attachments/assets/85ad19f8-8ebc-4a6d-94aa-0ed5ce6e9262" />
+
+### Interactive Features
+
+* Data Loading and Data Profiling
+* Slicer Formatting
+* Age Group Creation
+* Slicer Synchronization Across Pages
+* Conditional Formatting
+* Bookmark Creation
+* Interactive Chart Switching Using Bookmarks
+* Line Charts
+* Column Charts
+* Matrix Visual
+
+  Bookmarks were implemented to switch between Transaction Amount and Remaining Balance visualizations as well as between Line Chart and Column Chart views, creating an interactive user experience.
+
 
 ## Key Learnings
 
@@ -97,11 +139,9 @@ This dashboard page focuses on analyzing remaining balance trends over time. A l
 * Enhanced dashboard design and user experience through interactive reporting techniques.
 
 
-
 ## Conclusion
 
 This project demonstrates the use of Power BI to analyze UPI transaction data through interactive and user-friendly dashboards. By leveraging data profiling, slicers, conditional formatting, matrix visuals, line charts, and bookmarks, the dashboard enables efficient exploration of transaction trends and remaining balance patterns. The project highlights the importance of interactive reporting in transforming raw transaction data into meaningful insights.
-
 
 
 ## Repository Structure
