@@ -153,3 +153,15 @@ This project demonstrates the use of Power BI to analyze UPI transaction data th
 * Power BI Dashboard File
 * Dashboard Screenshots
 * Project Documentation
+
+
+## Author
+
+**Sonali Sharma**
+
+Aspiring Data Analyst
+
+Skills: Power BI | SQL | MS SQL Server | Tableau
+
+- GitHub: https://github.com/Sona15-17
+- LinkedIn: http://www.linkedin.com/in/sonali-sharma-7915b3368
